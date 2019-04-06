@@ -31,11 +31,11 @@ int restar (int x, int y)
     return resta;
 }
 
-/** \brief Divide dos valores enteros y devuelve el resultado
+/** \brief Divide dos valores flotantes y devuelve el resultado
  *
  * \param x es primer operando flotante
  * \param y es segundo operando flotante
- * \return
+ * \return muestra el resultado de la division
  *
  */
 
@@ -74,7 +74,7 @@ int multiplicar (int x, int y)
  *
  * \param x es primer operando entero
  * \param y es segundo operando entero
- * \return
+ * \return muestra el factorial de cada numero
  */
 
 void factorial (int x, int y)

@@ -76,7 +76,7 @@ int main()
                 }
                 else
                 {
-                    printf("Calculando todas las operaciones.Ingrese la opcion 4 para ver los resultados \n");
+                    printf("Calculando todas las operaciones. Ingrese la opcion 4 para ver los resultados \n");
 
                     resultadoSuma = sumar (num1,num2);
                     resultadoResta = restar (num1,num2);
