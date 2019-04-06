@@ -7,6 +7,9 @@ int main()
     int opcion;
     int num1;
     int num2;
+    int resultadoSuma;
+    int resultadoResta;
+    int resultadoMultiplicacion;
     int flag;
     int flag2;
 
@@ -74,6 +77,10 @@ int main()
                 else
                 {
                     printf("Calculando todas las operaciones.Ingrese la opcion 4 para ver los resultados \n");
+
+                    resultadoSuma = sumar (num1,num2);
+                    resultadoResta = restar (num1,num2);
+                    resultadoMultiplicacion = multiplicar(num1,num2);
                 }
             break;
 
@@ -86,11 +93,11 @@ int main()
                 {
                     printf("Informar resultados");
 
-                sumar (num1, num2);
-                restar (num1, num2);
-                dividir (num1, num2);
-                multiplicar (num1, num2);
-                factorial (num1, num2);
+                    printf("\nEl resultado de la suma entre %d + %d es: %d \n", num1, num2,resultadoSuma);
+                    printf("El resultado de %d - %d es: %d \n", num1, num2, resultadoResta);
+                    printf("El resultado de %d*%d es : %d \n", num1, num2, resultadoMultiplicacion);
+                    dividir (num1, num2);
+                    factorial (num1, num2);
 
                 printf("\n");
 
